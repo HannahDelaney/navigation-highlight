@@ -15,21 +15,30 @@ body {
 header {
   background-color: #ffe500;
   margin: 0;
-  padding: .2em .5em .3em;
+  padding: .2em 0;
   display: block;
-  text-align: center;
 }
 
 h1 {
   font-family: 'Sigmar One', sans-serif;
   font-size: 3rem;
   color: #b20953;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: .3em;
+  text-align: center;
 }
 
 ul li {
   display: inline-block;
   font-family: Georgia, serif;
   font-size: 1.125rem;
+  text-align: center;
 }
 
 nav a {
@@ -38,9 +47,37 @@ nav a {
   background-color: #b2a212;
   padding: .3em;
   margin: 0;
-  border-radius: .3em;
+  border-radius: 4px;
 }
 
 nav a:hover {
   background-color: #b20953;
+}
+
+h2 {
+  font-family: 'Sigmar One', sans-serif;
+  font-size: 1.875rem;
+  color: #b20953;
+  text-align: left;
+  margin: .3em;
+  padding: .5em 0;
+}
+
+p {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0 .75em;
+}
+
+.main-p {
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #ffe500;
+  margin: 1em 0 0;
+  padding: 1em;
+  display: block;
+  text-align: center;
+  font-size: .75rem;
 }
